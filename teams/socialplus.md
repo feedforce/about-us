@@ -152,3 +152,5 @@ GitHub Flow に基づいて開発を行っており、作成した Pull Request 
 開発チームの風通しも良く、各々が感じた課題感をチーム全体で共有・解決できる風土を大切にしています。
 
 これからもエンジニアにとってより良い開発環境を目指していきますので、是非一緒にさいこう！の環境でさいこう！のサービスを作っていきましょう！
+
+![ダンスをしている動物達のイラスト \| かわいいフリー素材集 いらすとや](https://1.bp.blogspot.com/-t9m-a6qtpLs/UUFxmJCWzhI/AAAAAAAAOxY/XLHdtZSqvtw/s1600/animal_dance.png)
