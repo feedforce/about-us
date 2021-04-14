@@ -40,13 +40,17 @@ EC の集客で欠かせない手段として、Google の検索結果や各種 
 
 ### 開発・計画のサイクル
 
-EC Booster ではスクラムを取り入れた開発をしています。具体的な開発の進め方については、以下のスライドをご覧ください。
+EC Booster ではスクラムをベースに、モブプログラミングを取り入れたチーム開発をしています。
+
+![開発スプリント回し方](https://user-images.githubusercontent.com/12433221/114650303-fcbfb780-9d1c-11eb-9720-eadb3fb83c75.png)
+
+詳しい開発の進め方やモブプロの様子は、以下の記事をご覧ください！
+
+- [EC Booster 開発スプリント回し方](https://docs.google.com/presentation/d/e/2PACX-1vTQY639rUAwDDtLfj_c9WbU1E0IlDSFzAbrP-XFCmbg8V_sNKPX_pCvKpiy50CQpS02nXvZnQHBb6JT/pub?start=false&loop=false&delayms=3000)
+- [半年モブプロしたらチームが大きく成長した話](https://developer.feedforce.jp/entry/2020/12/11/172338)
+
 タスク管理には GitHub Projects、Google Spreadsheet 、Miro などを利用しています。
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTQY639rUAwDDtLfj_c9WbU1E0IlDSFzAbrP-XFCmbg8V_sNKPX_pCvKpiy50CQpS02nXvZnQHBb6JT/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
-併せてこちらもご覧ください。
-[半年モブプロしたらチームが大きく成長した話](https://developer.feedforce.jp/entry/2020/12/11/172338)
 
 ### 自動化していること
 
