@@ -61,8 +61,7 @@ EC Booster ではスクラムをベースに、モブプログラミングを取
 
 ### 継続的に実践していること
 
-- スクラム開発
-    - 詳細はこちら的な何か
+- [スクラム開発](https://docs.google.com/presentation/d/e/2PACX-1vTQY639rUAwDDtLfj_c9WbU1E0IlDSFzAbrP-XFCmbg8V_sNKPX_pCvKpiy50CQpS02nXvZnQHBb6JT/pub?start=false&loop=false&delayms=3000&slide=id.gcefcb55f74_0_16)
 - モブプロ/ペアプロ
 - DevOps
 
