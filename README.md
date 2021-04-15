@@ -1,7 +1,8 @@
 ## チーム紹介
 
-* [ソーシャルPLUS](teams/socialplus.md)
 * [dfplus.io](teams/dfplusio.md)
+* [EC Booster](teams/ecbooster.md)
+* [ソーシャルPLUS](teams/socialplus.md)
 
 ## Feedforce Engineer's Principles
 
