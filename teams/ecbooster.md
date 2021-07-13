@@ -24,7 +24,7 @@ EC の集客で欠かせない手段として、Google の検索結果や各種 
 
 ### それ以外の開発環境や管理画面等で利用しているもの
 
-`CirceCI`, `Docker`, `New Relic`, `Librato`, `Bugsnag`, `Redash`, `Amazon Athena`
+`CircleCI`, `Docker`, `New Relic`, `Librato`, `Bugsnag`, `Redash`, `Amazon Athena`
 
 ### タスク管理・チャットツール等
 
