@@ -9,7 +9,7 @@ https://socialplus.jp
 ソーシャルPLUS は、2012年4月 にリリースされた、エンドユーザーの会員登録や再ログインがかんたんになる「ソーシャルログイン」を一括で実装できる BtoBtoC の ID 連携サービスです。
 
 その一方で ソーシャルPLUS は企業のマーケターからも注目されるサービスでもあります。
-その背景としては、
+その理由としては、
 
 * 従来のようにマーケティングメールを一斉配信してもブロックされてしまう
 * そもそもメールを開封してくれないユーザーが増えている
@@ -57,15 +57,15 @@ https://socialplus.jp
 
 ### 利用している主要技術（本番環境で利用しているもの）
 
-`AWS`, `EC2`, `kubernetes`, `Rails5`, `Rails6`, `Terraform`, `TypeScript`, `React`, `redux`, `Heroku`, `Firebase`, `PWA`
+`AWS`, `EC2`, `kubernetes`, `Rails5`, `Rails6`, `Terraform`, `TypeScript`, `React`, `Next.js`, `Preact`, `Redux`, `Heroku`, `Firebase`
 
 ### それ以外の開発環境や管理画面等で利用しているもの
 
-`Scout APM`, `CirceCI`, `Docker`, `BigQuery`, `Datadog`, `bugsnag`, `redash`
+`Scout APM`, `CirceCI`, `Docker`, `BigQuery`, `Datadog`, `Bugsnag`, `redash`, `Storybook`, `LogRocket`
 
 ### タスク管理・チャットツール等
 
-`GitHub`, `GitHub Project`, `Slack`, `esa`, `Figma`
+`GitHub`, `GitHub Project`, `Slack`, `esa`,　`Zoom`, `Figma`
 
 
 ## チーム全体での開発の進め方
@@ -98,7 +98,7 @@ GitHub Flow に基づいて開発を行っており、作成した Pull Request 
 ### 全体
 
 - Ruby on Rails を用いた開発経験の長いバックエンドエンジニアがリーダーです
-- フロントエンド、インフラなどそれぞれの分野に特化したエンジニアが揃っています
+- バックエンド・フロントエンド・インフラ、それぞれの分野に特化したエンジニアが揃っています
 - フルリモートによる開発を行っており、ミーティングには Zoom を利用しています
 - どの職能でもなるべく 2 人以上で相互にレビューをしながら開発しています
 - イテレーションごとにエンジニア同士で深い開発共有を行っています
@@ -118,9 +118,10 @@ GitHub Flow に基づいて開発を行っており、作成した Pull Request 
 ### フロントエンド
 
 - 主に 2 人で開発しています
-- 日々の開発はペアプロが中心です
+- タスクに応じて、ペアプロとソロプロを使い分けています
 - 安全で保守性の高いコーディングを行っています
-- 主な技術スタックは TypeScript, React, Redux です
+- Testing Library による UI テストや、Storybook + Storycap + reg-suit によるビジュアルリグレッションテストを強化中です
+- 主な技術スタックは TypeScript, React, Next.js, Redux です
 
 ### インフラ
 
@@ -143,7 +144,7 @@ GitHub Flow に基づいて開発を行っており、作成した Pull Request 
 
 ## 開発チームからのメッセージ
 
-ソーシャルPLUS は表立ってで目立つことは無いですが、エンドユーザーと企業をつなぐサービスとして多くの企業に導入されているサービスです。
+ソーシャルPLUS は表立ってで目立つことは無いですが、エンドユーザーと企業をつなぐサービスとして多くのサイトに導入されているサービスです。
 
 その裏側では、認証認可などの専門的な知識を駆使した設計や、LINE や Shopify といった様々なサービスと連携した新しい機能の実装、個人情報を外部に漏らさないようなセキュリティ面への配慮や、突発的に増えるトラフィックへの対応など、日々新しい挑戦を続けています。
 
