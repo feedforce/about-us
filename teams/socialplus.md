@@ -65,7 +65,7 @@ https://socialplus.jp
 
 ### タスク管理・チャットツール等
 
-`GitHub`, `GitHub Project`, `Slack`, `esa`,　`Zoom`, `Figma`
+`GitHub`, `GitHub Project`, `Slack`, `esa`, `Zoom`, `Figma`
 
 
 ## チーム全体での開発の進め方
