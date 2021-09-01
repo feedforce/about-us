@@ -3,6 +3,7 @@
 * [dfplus.io](teams/dfplusio.md)
 * [EC Booster](teams/ecbooster.md)
 * [ソーシャルPLUS](teams/socialplus.md)
+* [Omni Hub](teams/omni-hub.md)
 
 ## Feedforce Engineer's Principles
 
