@@ -82,7 +82,7 @@ Googleショッピング広告、Criteo、Facebookダイナミック広告など
 1. Pull Request ベースでの開発(単独、ペア、モブ)
 1. CI (Lint、単体テスト、結合テスト、E2E テスト、ビジュアルテスト)
 1. 開発者レビュー(ペア、モブの場合は省略もあり)
-1. レビュー環境作成(Heroku Review App / AWS S3 + CloudFront)
+1. レビュー環境作成(Heroku Review App / Render Pull Request Previews)
 1. プロダクトオーナーレビュー
 1. リリース(ChatOps)
 
