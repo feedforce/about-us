@@ -82,7 +82,7 @@ Googleショッピング広告、Criteo、Facebookダイナミック広告など
 1. Pull Request ベースでの開発(単独、ペア、モブ)
 1. CI (Lint、単体テスト、結合テスト、E2E テスト、ビジュアルテスト)
 1. 開発者レビュー(ペア、モブの場合は省略もあり)
-1. レビュー環境作成(Heroku Review App / AWS S3 + CloudFront)
+1. レビュー環境作成(Heroku Review App / Render Pull Request Previews)
 1. プロダクトオーナーレビュー
 1. リリース(ChatOps)
 
@@ -104,14 +104,14 @@ Googleショッピング広告、Criteo、Facebookダイナミック広告など
 
 ### バックエンド
 
-- 主に 2 人で開発しています
+- 主に 3 人で開発しています
 - デプロイやオペレーション作業などの ChatOps にも積極的に取り組んでいます
 - Docker を利用した開発環境で開発しています
 - 主な技術スタックは [Ruby](https://www.ruby-lang.org/en/), [Ruby on Rails](https://rubyonrails.org/), [PostgreSQL](https://www.postgresql.org/), [Docker](https://www.docker.com/) です
 
 ### フロントエンド
 
-- 主に 3 人で開発しています
+- 主に 2 人で開発しています
 - 日々の開発はペア/モブプロが中心です
 - 単体テスト、E2E テスト、ビジュアル回帰テスト、型チェック、Lint、Bundle Analyzer を導入しており、安心して Pull Request をマージできる CI 構築に努めています
 - 主な技術スタックは [TypeScript](https://www.typescriptlang.org/), [React](https://reactjs.org/), [Redux](https://redux.js.org/) です
@@ -125,7 +125,7 @@ Googleショッピング広告、Criteo、Facebookダイナミック広告など
 
 ### デザイナー
 
-- 今は 2 人のデザイナーがアサインされています
+- 今は 1 人のデザイナーがアサインされています
 - ステークホルダーの課題や解決策を素早く視覚化してチームに共有し、議論を進める「旗振り役」的な動き方が多いです
 - 実際の開発に関してはたまにコーディングに参加したり実装レビューをしています
 - 主な使用ツールは [Figma](https://www.figma.com/), [Sketch](https://www.sketch.com/), [Miro](http://miro.com/), [GitHub](https://github.com/), [Slack](http://slack.com/)です
