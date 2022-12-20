@@ -54,16 +54,15 @@ https://socialplus.jp
 
 ### 利用している主要技術（本番環境で利用しているもの）
 
-`AWS`, `EC2`, `kubernetes`, `Rails5`, `Rails6`, `Terraform`, `TypeScript`, `React`, `Next.js`, `Preact`, `Redux`, `Heroku`, `Firebase`
+`AWS`, `Amazon EKS`, `Kubernetes`, `Rails5`, `Rails6`, `Terraform`, `TypeScript`, `React`, `Next.js`, `Preact`, `Redux`, `Heroku`, `Firebase`
 
 ### それ以外の開発環境や管理画面等で利用しているもの
 
-`Scout APM`, `CirceCI`, `Docker`, `BigQuery`, `Datadog`, `Bugsnag`, `redash`, `Storybook`, `LogRocket`
+`Scout APM`, `CirceCI`, `GitHub Actions`, `Docker`, `Datadog`, `Bugsnag`, `Redash`, `Storybook`, `LogRocket`, `Argo CD`
 
 ### タスク管理・チャットツール等
 
-`GitHub`, `GitHub Project`, `Slack`, `esa`, `Zoom`, `Figma`
-
+`GitHub`, `GitHub Project`, `Slack`, `Slack Huddles`, `esa`, `Zoom`, `Figma`, `Miro`
 
 ## チーム全体での開発の進め方
 
@@ -110,7 +109,7 @@ GitHub Flow に基づいて開発を行っており、作成した Pull Request 
 - 日々の開発はペアプロが中心です
 - 開発環境は Docker 上に構築した Rails システムです
 - CI 上で RSpec や RuboCop を実行し、テストカバレッジを計測しています。テストカバレッジはなるべく 100% に近い状態を目指しています
-- 主な技術スタックは Ruby, Ruby Rails, MySQL, Docker です
+- 主な技術スタックは Ruby, Ruby on Rails, MySQL, Docker です
 
 ### フロントエンド
 
@@ -125,7 +124,7 @@ GitHub Flow に基づいて開発を行っており、作成した Pull Request 
 - 主に 2 人で開発しています
 - より安定的なサービス稼働を目指し、インフラ構成の見直しや運用コストの削減、属人性の排除を重視しています
 - 現在は Kubernetes を利用したサーバ環境のコンテナ化を進めています
-- 主な技術スタックは Kubernetes, AWS, Terraform, Datadog です
+- 主な技術スタックは Kubernetes (EKS), AWS, Terraform, Datadog, Argo CD です
 
 ### デザイナー
 
