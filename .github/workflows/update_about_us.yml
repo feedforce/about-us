@@ -13,11 +13,13 @@ jobs:
     steps:
       - name: Start Devin Session for About Us Update
         run: |
-          curl -i --fail-with-body \
+          RESPONSE=$(curl -i --fail-with-body \
           --request POST \
           --url https://api.devin.ai/v1/sessions \
           --header 'Content-Type: application/json' \
           --header 'Authorization: Bearer ${{ secrets.OMNIHUB_DEVIN_API_KEY }}' \
           --data '{
             "prompt": "!update_about_us"
-          }'
+          }')
+          echo "Response from Devin API:"
+          echo "$RESPONSE"
