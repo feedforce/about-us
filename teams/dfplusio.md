@@ -16,9 +16,9 @@ Googleショッピング広告、Criteo、Facebookダイナミック広告など
 * 柔軟で強力なデータ変換ルール
 * 設定内容をわかりやすく確認できる広告クリエイティブプレビュー
 * 複数サイト、複数データフィードの統合管理機能
-* 広告媒体仕様に合わせてデータフィードの値を補正する自動最適化機能（[参考記事](https://dfplus.io/news/update-auto-optimization-20181227)）
-* 作成されたデータフィードの仕様適合度を評価するスコアリング機能（[参考記事](https://dfplus.io/news/new-feature-datafeed-score)）
-* 広告タイトルの自動改善機能（[参考記事](https://dfplus.io/news/new-feature-auto-improvement-for-google-shopping-20190828)）
+* 広告媒体仕様に合わせてデータフィードの値を補正する自動最適化機能
+* 作成されたデータフィードの仕様適合度を評価するスコアリング機能
+* 広告タイトルの自動改善機能
 
 
 
