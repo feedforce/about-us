@@ -1,0 +1,23 @@
+name: About Us Update
+
+on:
+  # Run quarterly on the 1st of January, April, July, and October at 9:40AM Japan time (00:40 UTC)
+  schedule:
+    - cron: "40 0 1 1,4,7,10 *"
+  # Allow manual triggering for testing
+  workflow_dispatch:
+
+jobs:
+  update_about_us:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start Devin Session for About Us Update
+        run: |
+          curl -i --fail-with-body \
+          --request POST \
+          --url https://api.devin.ai/v1/sessions \
+          --header 'Content-Type: application/json' \
+          --header 'Authorization: Bearer ${{ secrets.DEVIN_API_KEY }}' \
+          --data '{
+            "prompt": "!update_about_us"
+          }'
