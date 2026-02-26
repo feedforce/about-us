@@ -28,6 +28,20 @@ Micro ATS は、大量の求人と応募を効率的に管理し、各種求人�
 
 ## 利用技術・開発環境
 
+### 自動化していること
+
+- Lint
+- テスト
+- AI エージェントを用いた保守作業
+
+### 継続的に実践していること
+
+- スクラム
+- モブプロ/ペアプロ
+- 事業数値をチーム全体に共有
+- AI エージェントを用いた自動化
+- 各種 AI ツールを用いた開発体験のカイゼン
+
 ### 利用している主要技術（本番環境で利用しているもの）
 
 `Next.js`, `React`, `TypeScript`, `Node.js`, `Prisma`, `GraphQL`, `Rails`, `Ruby`, `AWS`, `App Runner`, `Lambda`, `PostgreSQL`, `DynamoDB`, `Valkey`, `S3`, `Amazon CloudWatch Logs`, `Terraform`
