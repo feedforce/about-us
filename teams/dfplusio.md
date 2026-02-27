@@ -49,15 +49,15 @@ Googleショッピング広告、Criteo、Facebookダイナミック広告など
 
 ### 利用している主要技術（本番環境で利用しているもの）
 
-`AWS`, `EC2`,  `EKS`,  `Lambda`, `Aurora`, `DynamoDB`, `Terraform`, `Kubernetes`, `Rails`,  `TypeScript`, `React`, `redux`, `Heroku`, `Pusher`
+`AWS`, `EC2`,  `EKS`,  `Lambda`, `Aurora`, `DynamoDB`, `Terraform`, `Kubernetes`, `Heroku`, `Rails`, `TypeScript`, `React`, `Redux`, `Pusher`, `LogRocket`
 
 ### それ以外の開発環境や管理画面等で利用しているもの
 
-`CirceCI`, `Docker`, `Datadog`, `Mackerel`, `Bugsnag`, `Redash`, `Amazon Athena`
+`CirceCI`, `Docker`, `Datadog`, `Mackerel`, `Bugsnag`, `Redash`, `Amazon Athena`, `styled-components`, `Storybook`, `Claude Code`, `CodeRabbit`, `Devin`
 
 ### タスク管理・チャットツール等
 
-`GitHub`, `GitHub Project`, `Slack`, `Zoom`, `esa`, `Figma`, `Trello`, `Google Spreadsheet`, `Miro`
+`GitHub`, `GitHub Project`, `Slack`, `Zoom`, `Google Meet`, `esa`, `Figma`, `FigJam`,`Google Spreadsheet`
 
 ## チーム全体での開発の進め方
 
@@ -73,7 +73,7 @@ Googleショッピング広告、Criteo、Facebookダイナミック広告など
 
 どのような機能をどのようなUX/UIで提供するかを議論する「プランニング」には、すべてのエンジニアとUXデザイナー、およびプロダクトマネージャーが参加しています。情報の非対称性をなくし、開発スピードを上げることを意識しつつ、必ずドキュメントに残すようにしています。参加できなかったメンバーや後から見返す際に齟齬がないようにしています。
 
-タスクの管理には Google Spreadsheet, Trello, GitHub Issue/PR と GitHub Project を利用しています。
+タスクの管理には GitHub Project、GitHub Issue/PR を利用しています。
 
 ### 開発とリリース
 
@@ -93,11 +93,12 @@ Googleショッピング広告、Criteo、Facebookダイナミック広告など
 ### 全体
 
 - バックエンド、フロントエンド、インフラ、デザイナーとそれぞれの分野に特化したメンバーが揃っています
-- フルリモートによる開発を行っており、ミーティングには Zoom を利用しています
+- フルリモートまたはオフィス出社で開発を行っており、ミーティングには Zoom を利用しています
 - どの職能でもなるべく 2 人以上で相互にレビューおよびモブレビューしながら開発しています 
 - イテレーションごとにエンジニア同士で深い開発共有を行っています
 - 強制ではありませんが、ペアプロ・モブプロによる開発を推奨しています
 - レビューや CI、技術的負債返済の文化がしっかりあります
+- 積極的に AI の活用をしています
 - 属人化しないよう気をつけつつ、得意なことは各自でどんどんリードしてもらう雰囲気です
 - 監視・通知は Slack に集約しています
 - 週一でそれぞれの職能別のミーティングを行い情報共有や次週以降のタスク決めを行ってます
@@ -111,24 +112,23 @@ Googleショッピング広告、Criteo、Facebookダイナミック広告など
 
 ### フロントエンド
 
-- 主に 2 人で開発しています
-- 日々の開発はペア/モブプロが中心です
+- 今は 1 人で開発しています
 - 単体テスト、E2E テスト、ビジュアル回帰テスト、型チェック、Lint、Bundle Analyzer を導入しており、安心して Pull Request をマージできる CI 構築に努めています
 - 主な技術スタックは [TypeScript](https://www.typescriptlang.org/), [React](https://reactjs.org/), [Redux](https://redux.js.org/) です
 
 ### インフラ
 
-- 専任は 1 人ですがバックエンドチームもインフラに理解があるため積極的に相談や協力しています
+- 主に 2 人で開発しています。バックエンドチームもインフラに理解があるため積極的に相談や協力しています
 - より安定的なサービス稼働を目指し、インフラ構成の見直しや運用コストの削減、属人性の排除を重視しています
-- 現在は EKS/Kubernetes を利用したサーバ環境のコンテナ化を進めています
-- 主な技術スタックは [Kubernetes](https://github.com/kubernetes/kubernetes), [AWS](https://aws.amazon.com/), [Terraform](https://www.terraform.io/), [Chef](https://www.chef.io/), [Datadog](https://www.datadoghq.com/) です
+- EKS/Kubernetes を利用したサーバ環境のコンテナ化をしています
+- 主な技術スタックは [Kubernetes](https://github.com/kubernetes/kubernetes), [AWS](https://aws.amazon.com/), [Terraform](https://www.terraform.io/), [Datadog](https://www.datadoghq.com/) です
 
 ### デザイナー
 
 - 今は 1 人のデザイナーがアサインされています
 - ステークホルダーの課題や解決策を素早く視覚化してチームに共有し、議論を進める「旗振り役」的な動き方が多いです
 - 実際の開発に関してはたまにコーディングに参加したり実装レビューをしています
-- 主な使用ツールは [Figma](https://www.figma.com/), [Sketch](https://www.sketch.com/), [Miro](http://miro.com/), [GitHub](https://github.com/), [Slack](http://slack.com/)です
+- 主な使用ツールは [Figma](https://www.figma.com/), [FigJam](https://www.figma.com/ja-jp/figjam/), [GitHub](https://github.com/), [Slack](http://slack.com/)です
 
 ### 課題
 
