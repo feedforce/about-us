@@ -1,6 +1,7 @@
 ## 基本情報
 
-https://microats.dfplus.io
+- [Micro ATS/応募連携](https://microats.dfplus.io)
+- [求人 IQ for 求人原稿作成](https://dfplus.io/iq/script-creation)
 
 ## プロダクト
 
