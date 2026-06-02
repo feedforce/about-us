@@ -40,13 +40,17 @@ Omni Hubは、そういった既存の顧客体験を低廉にカバーしつつ
 
 `GitHub Actions`, `Docker`, `Docker Compose`, `Sentry`, `Redash`, `PostgreSQL`, `LocalStack`, `Bruno`, `Storybook`, `cargo-llvm-cov`, `cargo-machete`, `diesel_cli`, `Vitest`, `Webpack`, `ESLint`, `Prettier`
 
+### AIコーディングエージェント
+
+`Devin`, `Claude Code`, `Codex`
+
 ### タスク管理・チャットツール等
 
 `GitHub`, `Slack`, `Zoom`, `esa`, `Figma`, `Google Spreadsheet`
 
 ## チーム全体での開発の進め方
 
-開発者3名、ビジネス3名、マーケティング1名のチームで、スクラムで進めています。
+開発者4名、ビジネス2名、マーケティング1名のチームで、スクラムで進めています。
 
 1イテレーション = 2週間を基準に、
 
