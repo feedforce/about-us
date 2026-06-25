@@ -1,7 +1,6 @@
 ## チーム紹介
 
 * [dfplus.io](teams/dfplusio.md)
-* [Micro ATS](teams/micro-ats.md)
 * [Omni Hub](teams/omni-hub.md)
 
 ## Feedforce Engineer's Principles
