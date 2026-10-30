@@ -46,7 +46,7 @@ Omni Hubは、そういった既存の顧客体験を低廉にカバーしつつ
 
 ### タスク管理・チャットツール等
 
-`GitHub`, `Slack`, `Zoom`, `esa`, `Figma`, `Google Spreadsheet`
+`GitHub`, `Linear`, `Slack`, `Zoom`, `esa`, `Figma`, `Google Spreadsheet`
 
 ## チーム全体での開発の進め方
 
