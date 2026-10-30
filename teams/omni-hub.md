@@ -34,7 +34,7 @@ Omni Hubは、そういった既存の顧客体験を低廉にカバーしつつ
 
 ### 利用している主要技術（本番環境で利用しているもの）
 
-`AWS`, `EC2`, `ECS`, `Fargate`, `Lambda`, `API Gateway`, `SQS`, `S3`, `CloudFront`, `SES`, `Aurora`, `DynamoDB`, `Valkey`, `EventBridge`, `CloudWatch`, `Elastic Beanstalk`, `Terraform`, `Rust`, `Actix Web`, `Diesel`, `TypeScript`, `React`, `Polaris`, `GraphQL`
+`AWS`, `EC2`, `ECS Fargate`, `Lambda`, `API Gateway`, `SQS`, `S3`, `CloudFront`, `SES`, `Aurora`, `DynamoDB`, `Valkey`, `EventBridge`, `CloudWatch`, `Elastic Beanstalk`, `Terraform`, `Rust`, `Actix Web`, `Diesel`, `TypeScript`, `React`, `Polaris`, `GraphQL`
 
 ### それ以外の開発環境や管理画面等で利用しているもの
 
