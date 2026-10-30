@@ -38,7 +38,7 @@ Omni Hubは、そういった既存の顧客体験を低廉にカバーしつつ
 
 ### それ以外の開発環境や管理画面等で利用しているもの
 
-`GitHub Actions`, `Docker`, `Docker Compose`, `mise`, `Task`, `pnpm`, `Renovate`, `Danger`, `Sentry`, `Redash`, `PostgreSQL`, `Floci`, `Bruno`, `Storybook`, `cargo-llvm-cov`, `cargo-machete`, `cargo-lambda`, `diesel_cli`, `ast-grep`, `Vitest`, `Webpack`, `ESLint`, `Prettier`
+`GitHub Actions`, `Docker`, `Docker Compose`, `mise`, `Task`, `pnpm`, `Renovate`, `Danger`, `Sentry`, `Redash`, `PostgreSQL`, `Floci`, `Bruno`, `Storybook`, `cargo-llvm-cov`, `cargo-machete`, `diesel_cli`, `ast-grep`, `Vitest`, `Webpack`, `ESLint`, `Prettier`
 
 ### AIコーディングエージェント
 
