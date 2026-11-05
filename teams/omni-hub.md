@@ -7,7 +7,7 @@ https://omni-hub.jp/
 ### プロダクトの説明
 
 Omni Hubは2021年4月にリリースされた、ECサイトと実店舗の会員を統合するBtoBtoCのID連携サービスです。
-Shopifyと複数の実店舗POSサービス（スマレジ、Square等）の顧客情報を連携し、カスタマーに一貫したブランド体験を提供します。サービス開始から約4年が経過し、安定した運用実績と継続的な機能拡張により、小売業界のオムニチャネル戦略を支える成熟したプラットフォームとして成長しています。
+Shopifyと複数の実店舗POSサービス（スマレジ、Square等）の顧客情報を連携し、カスタマーに一貫したブランド体験を提供します。サービス開始から5年以上が経過し、安定した運用実績と継続的な機能拡張により、小売業界のオムニチャネル戦略を支える成熟したプラットフォームとして成長しています。
 
 ソフトウェアアーキテクチャは、POS抽象化レイヤーにより複数のPOSシステムに対応できる拡張性を持ち、ブランドの既存インフラを活かしながら段階的にオムニチャネル戦略を実現できる柔軟性を提供しています。
 
@@ -22,7 +22,7 @@ Omni Hubは、そういった既存の顧客体験を低廉にカバーしつつ
 
 ### 自動化していること
 
-開発環境構築から本番デプロイまで、包括的な自動化により開発者の生産性を最大化しています。Docker Composeによる完全なローカル開発環境の構築、Terraformによる運用環境のコード管理（Infrastructure as Code）、Rust ClippyとTypeScript ESLintによる静的検査とフォーマット検査を実施しています。
+開発環境構築から本番デプロイまで、包括的な自動化により開発者の生産性を最大化しています。Docker Composeによる完全なローカル開発環境の構築、miseによる開発ツールのバージョン固定、Terraformによる運用環境のコード管理（Infrastructure as Code）、Rust ClippyとTypeScript ESLintによる静的検査とフォーマット検査を実施しています。
 
 単体テスト、統合テスト、カバレッジ測定を含む包括的なテスト自動化、GitHub Actionsによる自動CI/CDパイプライン、GraphQLスキーマの互換性検証、データベースマイグレーションの互換性テストを行っています。依存関係の脆弱性検査、未使用依存関係の検出、テストカバレッジの差分レポート自動生成により、コード品質を継続的に維持しています。
 
@@ -34,11 +34,11 @@ Omni Hubは、そういった既存の顧客体験を低廉にカバーしつつ
 
 ### 利用している主要技術（本番環境で利用しているもの）
 
-`AWS`, `EC2`, `ECS`, `SQS`, `Aurora`, `DynamoDB`, `Redis`, `EventBridge`, `CloudWatch`, `Elastic Beanstalk`, `Terraform`, `Rust`, `Actix Web`, `Diesel`, `TypeScript`, `React`, `Polaris`, `GraphQL`
+`AWS`, `EC2`, `ECS Fargate`, `Lambda`, `API Gateway`, `SQS`, `S3`, `CloudFront`, `SES`, `Aurora`, `DynamoDB`, `Valkey`, `EventBridge`, `CloudWatch`, `Elastic Beanstalk`, `Terraform`, `Rust`, `Actix Web`, `Diesel`, `TypeScript`, `React`, `Polaris`, `GraphQL`
 
 ### それ以外の開発環境や管理画面等で利用しているもの
 
-`GitHub Actions`, `Docker`, `Docker Compose`, `Sentry`, `Redash`, `PostgreSQL`, `LocalStack`, `Bruno`, `Storybook`, `cargo-llvm-cov`, `cargo-machete`, `diesel_cli`, `Vitest`, `Webpack`, `ESLint`, `Prettier`
+`GitHub Actions`, `Docker`, `Docker Compose`, `mise`, `Task`, `pnpm`, `Renovate`, `Sentry`, `Redash`, `PostgreSQL`, `Floci`, `Bruno`, `Storybook`, `cargo-llvm-cov`, `cargo-machete`, `diesel_cli`, `ast-grep`, `Vitest`, `Webpack`, `ESLint`, `Prettier`
 
 ### AIコーディングエージェント
 
@@ -46,7 +46,7 @@ Omni Hubは、そういった既存の顧客体験を低廉にカバーしつつ
 
 ### タスク管理・チャットツール等
 
-`GitHub`, `Slack`, `Zoom`, `esa`, `Figma`, `Google Spreadsheet`
+`GitHub`, `Linear`, `Slack`, `Zoom`, `esa`, `Figma`, `Google Spreadsheet`
 
 ## チーム全体での開発の進め方
 
@@ -81,7 +81,7 @@ Omni Hubは、そういった既存の顧客体験を低廉にカバーしつつ
 
 実店舗は、単なる販売の場だけでなく顧客に対するメディアとして再定義されつつあります。Omni Hubは、この変化する小売業界において、ブランドと顧客をつなぐ重要な基盤として成長してきました。
 
-約4年間の運用を通じて蓄積された知見と継続的な技術革新により、より多くのブランドのオムニチャネル戦略を支援できるプラットフォームへと進化しています。複数のPOSシステム対応や外部システム連携など、拡張性の高いアーキテクチャにより、多様な小売業態のニーズに応えることができます。
+5年以上の運用を通じて蓄積された知見と継続的な技術革新により、より多くのブランドのオムニチャネル戦略を支援できるプラットフォームへと進化しています。複数のPOSシステム対応や外部システム連携など、拡張性の高いアーキテクチャにより、多様な小売業態のニーズに応えることができます。
 
 技術的には、Rustによる高性能で安全なバックエンド開発、GraphQLによる柔軟なAPI設計、ドメイン駆動設計による保守性の高いコードベース、包括的な自動テストとCI/CDによる品質保証など、モダンな開発環境とベストプラクティスが整っています。チームとして技術的負債の解消と継続的な改善に取り組みながら、新機能の開発を加速させています。
 
